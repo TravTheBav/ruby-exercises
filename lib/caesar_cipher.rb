@@ -12,6 +12,3 @@ def caesar_cipher(str, shift_factor)
   end
   chars.join
 end
-
-puts caesar_cipher('What a string!', 5)
-puts caesar_cipher('ABxyz', 1)
